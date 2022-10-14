@@ -13,7 +13,7 @@ const block = new Block({
     hash: hash,
     data: data
 });
-it('has a timestamp ,lasthash,hash and data property', () => {
+it('has a timestamp ,lasthash,hash, and data property', () => {
     expect(block.timestamp).toEqual(timestamp);
     expect(block.lastHash).toEqual(lastHash);
     expect(block.hash).toEqual(hash);
